@@ -139,7 +139,7 @@ The accuracy of the validation set was just insufficient.
 
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
 
-In order to avoid overfitting, I added dropout layers in the fully connected layers. This led to a high and more comparable validation and training accuracy and thus to more robust model.  
+In order to avoid overfitting, I added dropout layers to the fully connected layers. This led to a high and more comparable validation and training accuracy and thus to more robust model.  
 
 * Which parameters were tuned? How were they adjusted and why?
 
@@ -178,7 +178,7 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-For all prediction and in the limits of numerical accuracy the model is 100% right. This might due to fact that these images were not taken by a camera but artificially created. 
+For all predictions and in the limits of numerical accuracy the model predicts with a certainty of 100%. This might due to fact that these images were not taken by a camera but artificially created.
 
 For the first image, the model is 100% sure that this is a yield sign (probability of 1.0). The top five soft max probabilities were
 
